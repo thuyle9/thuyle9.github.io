@@ -7,7 +7,7 @@
 <meta name="description" content="Thuy T. Le, Assistant Professor in the Department of Mathematics and Statistics, California State University, Long Beach. Research in Inverse Problems, Numerical Analysis for PDEs, and Machine Learning.">
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-<link href="https://fonts.googleapis.com/css2?family=Newsreader:ital,opsz,wght@0,6..72,400;0,6..72,500;0,6..72,600;1,6..72,400&family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet">
+<link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet">
 <style>
   :root{
     --ink:#1a1f2b;
@@ -33,7 +33,7 @@
   }
   a{color:var(--accent);text-decoration:none;transition:color .15s}
   a:hover{color:var(--accent-2)}
-  h1,h2,h3,.serif{font-family:'Newsreader',Georgia,serif}
+  h1,h2,h3,.serif{font-family:'Inter',system-ui,sans-serif}
 
   /* ---------- NAV ---------- */
   header.nav{
@@ -47,7 +47,7 @@
     display:flex;align-items:center;justify-content:space-between;
     padding:14px 24px;
   }
-  .brand{font-family:'Newsreader',serif;font-weight:600;font-size:1.15rem;letter-spacing:.2px;color:var(--ink)}
+  .brand{font-weight:700;font-size:1.15rem;letter-spacing:.2px;color:var(--ink)}
   .brand span{color:var(--accent)}
   nav ul{display:flex;gap:26px;list-style:none;align-items:center}
   nav a{color:var(--ink-soft);font-size:.92rem;font-weight:500;letter-spacing:.2px}
@@ -81,7 +81,7 @@
   }
   .portrait img{width:100%;height:100%;object-fit:cover;display:block}
   .portrait .ph{font-size:.82rem;padding:0 18px;color:var(--muted);line-height:1.5}
-  .portrait .ph strong{display:block;font-family:'Newsreader',serif;font-size:2.4rem;color:var(--accent);margin-bottom:8px}
+  .portrait .ph strong{display:block;font-size:2.4rem;font-weight:700;color:var(--accent);margin-bottom:8px}
   .hero h1{font-size:2.9rem;line-height:1.08;letter-spacing:-.02em;margin-bottom:8px}
   .hero .role{font-size:1.12rem;color:var(--ink-soft);font-weight:500;margin-bottom:4px}
   .hero .aff{color:var(--muted);font-size:1rem;margin-bottom:22px}
@@ -117,7 +117,7 @@
 
   /* ---------- PUBLICATIONS ---------- */
   .pub-sub{
-    font-family:'Newsreader',serif;font-size:1.3rem;font-weight:600;color:var(--accent);
+    font-size:1.3rem;font-weight:600;color:var(--accent);
     margin:34px 0 18px;padding-bottom:8px;border-bottom:2px solid var(--accent-soft);
   }
   .pub-sub:first-of-type{margin-top:0}
@@ -153,7 +153,7 @@
   .research-grid{display:grid;grid-template-columns:repeat(3,1fr);gap:22px;margin-top:26px}
   .research-grid .card h3{font-size:1.08rem;margin-bottom:10px}
   .research-grid .card p{font-size:.95rem;color:var(--ink-soft);margin:0}
-  .research-grid .card .num{font-family:'Newsreader',serif;font-size:1.6rem;color:var(--accent-2);display:block;margin-bottom:6px;line-height:1}
+  .research-grid .card .num{font-size:1.4rem;font-weight:700;color:var(--accent-2);display:block;margin-bottom:6px;line-height:1}
   .apps-band{margin-top:30px;padding:22px 26px;border-radius:var(--radius);background:var(--accent-soft);border:1px solid var(--line)}
   .apps-band h3{font-size:1.05rem;color:var(--accent);margin-bottom:12px}
   .apps-band .apps{display:flex;flex-wrap:wrap;gap:10px}
@@ -170,7 +170,7 @@
   .contact .wrap{max-width:640px}
   .contact h2{font-size:2rem}
   .contact p{color:var(--ink-soft);font-size:1.05rem;margin:14px 0 28px}
-  .contact a.email{font-family:'Newsreader',serif;font-size:1.5rem;color:var(--accent);font-weight:600}
+  .contact a.email{font-size:1.5rem;color:var(--accent);font-weight:600}
   .social{display:flex;gap:14px;justify-content:center;margin-top:26px;flex-wrap:wrap}
 
   /* ---------- FOOTER ---------- */
@@ -243,7 +243,7 @@
       <p class="lead">Applied mathematician working on inverse problems, numerical analysis for partial differential equations, and machine learning — developing globally convergent numerical methods with rigorous theory and real-world data.</p>
       <div class="cta-row">
         <a href="#publications" class="btn primary">View Publications</a>
-        <!-- <a href="ThuyLe_CV.pdf" class="btn">Curriculum Vitae</a> -->
+        <a href="ThuyLe_CV.pdf" class="btn">Curriculum Vitae</a>
         <a href="https://scholar.google.com/citations?user=IbsmfOIAAAAJ&hl=en&oi=sra" class="btn" target="_blank" rel="noopener">Google Scholar</a>
         <a href="https://mathscinet.ams.org/mathscinet/MRAuthorID/1401664" class="btn" target="_blank" rel="noopener">MathSciNet</a>
       </div>
@@ -295,7 +295,7 @@
       <span class="tag">Inverse Problems</span>
       <span class="tag">Numerical Analysis</span>
       <span class="tag">Nonlinear PDEs</span>
-      <span class="tag">Carleman Estimates </span>
+      <span class="tag">Carleman Estimates &amp; Convexification</span>
       <span class="tag">Inverse Scattering</span>
       <span class="tag">Operator Learning</span>
       <span class="tag">Causal Bayesian Optimization</span>
@@ -422,12 +422,12 @@
       <div class="term"><div class="t">2019–2022</div><div class="c">Differential Equations, Advanced Calculus of One Variable, Matrices &amp; Linear Algebra</div></div>
     </div>
 
-    <!-- <div class="teach-block">
+    <div class="teach-block">
       <h3>Lecturer · Banking Academy of Vietnam</h3>
       <div class="inst-sub">Department of Mathematics · 2012 – 2019</div>
       <div class="term"><div class="t">2012–2019</div><div class="c">Probability &amp; Mathematical Statistics · Econometrics · Mathematics for Economists</div></div>
     </div>
-  </div> -->
+  </div>
 </section>
 
 <!-- SERVICE -->
@@ -473,7 +473,7 @@
     <div class="social">
       <a class="btn" href="https://scholar.google.com/citations?user=IbsmfOIAAAAJ&hl=en&oi=sra" target="_blank" rel="noopener">Google Scholar</a>
       <a class="btn" href="https://mathscinet.ams.org/mathscinet/MRAuthorID/1401664" target="_blank" rel="noopener">MathSciNet</a>
-      <!-- <a class="btn" href="ThuyLe_CV.pdf">Curriculum Vitae</a> -->
+      <a class="btn" href="ThuyLe_CV.pdf">Curriculum Vitae</a>
     </div>
   </div>
 </section>
